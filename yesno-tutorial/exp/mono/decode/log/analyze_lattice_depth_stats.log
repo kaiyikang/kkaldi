@@ -1,0 +1,9 @@
+# gunzip -c exp/mono/decode/depth_stats_tmp.*.gz | steps/diagnostic/analyze_lattice_depth_stats.py exp/mono/graph 
+# Started at Mon Aug 24 16:36:35 CEST 2020
+#
+Traceback (most recent call last):
+  File "steps/diagnostic/analyze_lattice_depth_stats.py", line 71, in <module>
+    for p in [ -1 ] + phone_int2text.keys():
+TypeError: can only concatenate list (not "dict_keys") to list
+# Accounting: time=0 threads=1
+# Ended (code 1) at Mon Aug 24 16:36:35 CEST 2020, elapsed time 0 seconds
