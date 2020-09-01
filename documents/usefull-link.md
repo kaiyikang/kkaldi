@@ -8,3 +8,9 @@ https://medium.com/@jonathan_hui/speech-recognition-deep-speech-ctc-listen-atten
 https://www.zhihu.com/question/35833334
 https://zhuanlan.zhihu.com/p/63753017
 https://zhuanlan.zhihu.com/p/71949938
+
+
+
+
+
+https://blog.csdn.net/Magical_Bubble/article/details/90408095
