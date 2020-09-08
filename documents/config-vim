@@ -1,0 +1,37 @@
+~~~ vim
+" Basic config
+syntax on
+set encoding=utf-8
+set t_Co=256
+filetype indent on
+set autoindent
+set ts=4
+set expandtab
+" set number 
+" set relativenumber
+set linebreak
+set mouse=c
+set scrolloff=5
+
+" VIM theme
+colorscheme molokai
+set t_Co=256
+set background=dark
+
+" map the key
+nmap fw :w<CR>
+nmap fq :wq<CR>
+let mapleader="#"
+nmap <leader>w :w<CR>
+
+" Plug config
+call plug#begin('~/.vim/plugged')
+Plug 'preservim/nerdtree'
+Plug 'jiangmiao/auto-pairs'
+Plug 'bling/vim-airline'
+
+call plug#end()
+"
+~~~
+
+

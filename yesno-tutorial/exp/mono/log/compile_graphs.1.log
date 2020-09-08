@@ -1,7 +1,0 @@
-# compile-train-graphs exp/mono/tree exp/mono/0.mdl data/lang/L.fst "ark:sym2int.pl --map-oov 1 -f 2- data/lang/words.txt < data/train_yesno/split1/1/text|" "ark:|gzip -c >exp/mono/fsts.1.gz" 
-# Started at Mon Aug 24 15:16:30 CEST 2020
-#
-compile-train-graphs exp/mono/tree exp/mono/0.mdl data/lang/L.fst 'ark:sym2int.pl --map-oov 1 -f 2- data/lang/words.txt < data/train_yesno/split1/1/text|' 'ark:|gzip -c >exp/mono/fsts.1.gz' 
-LOG (compile-train-graphs[5.5.772~1-8eb56]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 31 graphs, failed for 0
-# Accounting: time=0 threads=1
-# Ended (code 0) at Mon Aug 24 15:16:30 CEST 2020, elapsed time 0 seconds
